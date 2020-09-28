@@ -1,0 +1,23 @@
+{
+    "name": "generate-hald-ndarray",
+    "version": "0.1.0",
+    "description": "Generates a neutral Hald CLUT of any size as an multidimensional array (ndarray)",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/viktorfejes/generate-hald-ndarray.git"
+    },
+    "keywords": [
+        "clut",
+        "hald",
+        "lut",
+        "color",
+        "grading",
+        "lookup"
+    ],
+    "author": "Viktor Fejes",
+    "license": "MIT"
+}
