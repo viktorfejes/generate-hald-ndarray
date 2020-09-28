@@ -15,11 +15,12 @@ function generateHaldData(size) {
     while (blue < cubeSize) {
         let green = 0
         while (green < cubeSize) {
+            let red = 0
             while (red < cubeSize) {
                 data.push(toFixedNumber(red / (cubeSize - 1), 6))
                 data.push(toFixedNumber(green / (cubeSize - 1), 6))
                 data.push(toFixedNumber(blue / (cubeSize - 1), 6))
-                
+
                 red++
             }
             green++
