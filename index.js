@@ -19,12 +19,7 @@ function generateHaldData(size) {
                 data.push(toFixedNumber(red / (cubeSize - 1), 6))
                 data.push(toFixedNumber(green / (cubeSize - 1), 6))
                 data.push(toFixedNumber(blue / (cubeSize - 1), 6))
-
-                // data.push([
-                //     Math.round((red / (cubeSize - 1)) * 1e6) / 1e6,
-                //     Math.round((green / (cubeSize - 1)) * 1e6) / 1e6,
-                //     Math.round((blue / (cubeSize - 1)) * 1e6) / 1e6,
-                // ])
+                
                 red++
             }
             green++
