@@ -7,8 +7,6 @@ function toFixedNumber(num, digits, base){
 
 function generateHaldData(size) {
     const cubeSize = Math.sqrt(size)
-    const imageSize = size * cubeSize
-
     let data = []
 
     let blue = 0

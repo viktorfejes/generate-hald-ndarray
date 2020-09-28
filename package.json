@@ -19,5 +19,8 @@
         "lookup"
     ],
     "author": "Viktor Fejes",
-    "license": "MIT"
+    "license": "MIT",
+    "dependencies": {
+        "ndarray": "^1.0.19"
+    }
 }
