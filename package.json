@@ -1,6 +1,6 @@
 {
     "name": "generate-hald-ndarray",
-    "version": "0.1.1-0",
+    "version": "1.0.0-0",
     "description": "Generates a neutral Hald CLUT of any size as an multidimensional array (ndarray)",
     "main": "index.js",
     "scripts": {
