@@ -26,9 +26,7 @@ function generateHaldData(size) {
         blue++
     }
 
-    out = ndarray(data, [size, size, size, 3])
-
-    return out
+    return ndarray(data, [size, size, size, 3])
 }
 
 module.exports = generateHaldData
